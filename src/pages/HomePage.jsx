@@ -19,8 +19,7 @@ import SectionHeading from "../components/ui/SectionHeading";
 import { categoryCards } from "../data/categories";
 import { site, directionsUrl, mapEmbedUrl } from "../lib/site";
 
-// Import custom image from assets folder
-import heroRedmi from "../assets/hero-redmi.jpg";
+
 
 /* ---------------------------------------------------------------- data ---- */
 
@@ -31,7 +30,7 @@ const heroImages = [
     className: "col-span-2 row-span-2",
   },
   {
-    src: "hero-redmi.jpg",
+    src: "/hero-redmi.jpg",
     alt: "Redmi A7 Pro Smartphone",
     className: "",
   },
