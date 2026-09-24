@@ -16,7 +16,7 @@ const pillars = [
   {
     icon: Target,
     title: "Our Mission",
-    text: "To put genuine, well-priced technology within reach of everyone in Ondo State — and to stand behind every item we sell with advice, installation and repair that people can actually rely on.",
+    text: "To put genuine, well-priced technology within reach of everyone in Ondo State and to stand behind every item we sell with advice, installation and repair that people can actually rely on.",
   },
   {
     icon: Eye,
@@ -124,7 +124,7 @@ export default function AboutPage() {
               </p>
               <p>
                 Tech City started as a small counter selling phone accessories. Customers kept
-                asking the same questions — which laptop will survive my workload, can you fit
+                asking the same questions which laptop will survive my workload, can you fit
                 cameras at my shop, what happens when this stops working? Answering those questions
                 honestly, one person at a time, turned the counter into a mall.
               </p>
