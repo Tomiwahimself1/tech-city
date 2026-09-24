@@ -19,6 +19,9 @@ import SectionHeading from "../components/ui/SectionHeading";
 import { categoryCards } from "../data/categories";
 import { site, directionsUrl, mapEmbedUrl } from "../lib/site";
 
+// Import custom image from assets folder
+import heroRedmi from "../assets/hero-redmi.jpg";
+
 /* ---------------------------------------------------------------- data ---- */
 
 const heroImages = [
@@ -28,8 +31,8 @@ const heroImages = [
     className: "col-span-2 row-span-2",
   },
   {
-    src: "https://images.unsplash.com/photo-1592286927505-1def25115558?auto=format&fit=crop&w=600&q=80",
-    alt: "Smartphone on display",
+    src: "src/assets/hero-redmi.jpg",
+    alt: "Redmi A7 Pro Smartphone",
     className: "",
   },
   {
@@ -221,7 +224,7 @@ function Hero() {
           <div className="grid grid-cols-4 grid-rows-2 gap-3 md:gap-4">
             {heroImages.map((image, idx) => (
               <motion.div
-                key={image.src}
+                key={typeof image.src === "string" ? image.src : idx}
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
