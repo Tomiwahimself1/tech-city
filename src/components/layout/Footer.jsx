@@ -43,7 +43,7 @@ export default function Footer() {
           <Logo tone="light" />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-navy-200">
             A technology mall in Ondo State selling laptops, desktops, phones, POS systems,
-            surveillance cameras, gaming consoles, solar and smart home gadgets — with support
+            surveillance cameras, gaming consoles, solar and smart home gadgets with support
             that continues after the sale.
           </p>
 
@@ -111,7 +111,7 @@ export default function Footer() {
         <div>
           <h2 className="text-base font-semibold text-white">Subscribe to our newsletter</h2>
           <p className="mt-3 text-sm text-navy-200">
-            New arrivals, price drops and practical tech advice — about twice a month.
+            New arrivals, price drops and practical tech advice about twice a month.
           </p>
 
           <form onSubmit={handleSubscribe} className="mt-5">
