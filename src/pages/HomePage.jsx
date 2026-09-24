@@ -31,7 +31,7 @@ const heroImages = [
     className: "col-span-2 row-span-2",
   },
   {
-    src: "src/assets/hero-redmi.jpg",
+    src: "hero-redmi.jpg",
     alt: "Redmi A7 Pro Smartphone",
     className: "",
   },
