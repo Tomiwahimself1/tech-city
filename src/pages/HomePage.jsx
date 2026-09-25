@@ -101,19 +101,19 @@ const testimonials = [
   {
     quote:
       "Tech City has really been a reliable place for all my tech needs. The staff are always helpful and professional.",
-    name: "James D.",
+    name: "James DStanley Nzerem.",
     role: "Business owner, Ondo",
   },
   {
     quote:
       "I love the variety of products and their customer service. They always go the extra mile.",
-    name: "Tolu A.",
+    name: "Tolu Adegboye.",
     role: "Student, AAUA",
   },
   {
     quote:
       "Great experience! The team is very knowledgeable and helped me get the right laptop for my work.",
-    name: "Mercy E.",
+    name: "Mercy Elegbede.",
     role: "Accountant",
   },
 ];
@@ -450,7 +450,7 @@ function Testimonials() {
                   “{quote}”
                 </blockquote>
                 <figcaption className="mt-5 border-t border-navy-100 pt-4">
-                  <span className="block text-sm font-semibold text-navy">— {name}</span>
+                  <span className="block text-sm font-semibold text-navy">--- {name}</span>
                   <span className="mt-0.5 block text-xs text-navy-500">{role}</span>
                   <div className="mt-2">
                     <Stars />
