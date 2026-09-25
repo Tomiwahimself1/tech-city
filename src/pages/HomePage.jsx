@@ -201,7 +201,7 @@ function Hero() {
             {[
               { value: "10+", label: "Product categories" },
               { value: "2,000+", label: "Customers served" },
-              { value: "12 mo", label: "Warranty on devices" },
+              { value: "12 months", label: "Warranty on devices" },
             ].map((stat) => (
               <div key={stat.label}>
                 <dt className="sr-only">{stat.label}</dt>
