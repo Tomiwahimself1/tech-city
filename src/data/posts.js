@@ -5,7 +5,7 @@ export const featuredPost = {
   slug: "buying-a-laptop-in-ondo-2026",
   title: "How to buy a laptop in Ondo without getting burned",
   excerpt:
-    "Refurbished, UK-used, sealed, 'clean' — the labels mean different things to different sellers. Here is what each one actually tells you, and the five checks we run on every machine before it reaches our shelf.",
+    "Refurbished, UK-used, sealed, 'clean' the labels mean different things to different sellers. Here is what each one actually tells you, and the five checks we run on every machine before it reaches our shelf.",
   category: "Buying Guides",
   date: "2026-09-02",
   readTime: "7 min read",
@@ -18,7 +18,7 @@ export const posts = [
     slug: "cctv-for-small-shops",
     title: "CCTV for a small shop: what 8 cameras really cost",
     excerpt:
-      "A full breakdown of a typical shop installation — cameras, recorder, cabling, labour — and where people usually overspend.",
+      "A full breakdown of a typical shop installation cameras, recorder, cabling, labour and where people usually overspend.",
     category: "Security",
     date: "2026-08-26",
     readTime: "5 min read",
@@ -40,7 +40,7 @@ export const posts = [
     slug: "choosing-a-pos-terminal",
     title: "Choosing a POS terminal for your business",
     excerpt:
-      "Android or traditional, 4G or Wi-Fi, bank-issued or independent — how to pick the terminal that matches how you actually trade.",
+      "Android or traditional, 4G or Wi-Fi, bank-issued or independent how to pick the terminal that matches how you actually trade.",
     category: "Business Tech",
     date: "2026-08-09",
     readTime: "6 min read",
@@ -51,7 +51,7 @@ export const posts = [
     slug: "ps5-vs-gaming-pc",
     title: "PS5 or a gaming PC? An honest comparison",
     excerpt:
-      "We sell both, so here is the version without the sales pitch — including what each one costs to run over three years.",
+      "We sell both, so here is the version without the sales pitch including what each one costs to run over three years.",
     category: "Gaming",
     date: "2026-07-30",
     readTime: "6 min read",

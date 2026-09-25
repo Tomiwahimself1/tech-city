@@ -27,7 +27,7 @@ export default function BlogPage() {
       <PageHero
         eyebrow="Blog"
         title="Practical technology advice from our floor"
-        description="Buying guides, installation breakdowns and honest comparisons — written by the people who actually sell and fit this equipment."
+        description="Buying guides, installation breakdowns and honest comparisons written by the people who actually sell and fit this equipment."
         breadcrumbs={[{ label: "Home", to: "/" }, { label: "Blog" }]}
       />
 
