@@ -25,7 +25,7 @@ import { site, directionsUrl, mapEmbedUrl } from "../lib/site";
 
 const heroImages = [
   {
-    src: "public/Haidiko.jpeg",
+    src: "/Haidiko.jpeg", // ✅ Correct path
     alt: "Laptop on a retail display table",
     className: "col-span-2 row-span-2",
   },
@@ -35,7 +35,7 @@ const heroImages = [
     className: "",
   },
   {
-    src: "public/WhatsApp Image 2026-09-25 at 19.05.56.jpeg",
+    src: "/ps5-console.jpeg", // ✅ Renamed without spaces or "public/"
     alt: "PlayStation 5 console and controller",
     className: "",
   },
