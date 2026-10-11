@@ -8,23 +8,23 @@ const U = (id, w = 900) =>
 
 export const products = [
   {
-    id: "hp-elitebook-840-g8",
-    name: "HP EliteBook 840 G8",
+    id: "hp-elitebook-840-g3",
+    name: "HP EliteBook 840 G3",
     category: "laptops",
     price: 845000,
     oldPrice: 920000,
     stock: "in-stock",
-    summary: "Intel Core i7 (11th Gen) · 16GB RAM · 512GB NVMe SSD · 14\" FHD",
+    summary: "Intel Core i5 (7th Gen) · 8GB RAM · 128GB NVMe SSD · 14\" FHD",
     description:
-      "A business-class ultrabook built for long days on the move. The EliteBook 840 G8 pairs an 11th-generation Core i7 with a 14-inch anti-glare display, a full magnesium chassis and HP Sure View privacy. Ideal for consultants, accountants and anyone who lives in spreadsheets.",
+      "A business-class ultrabook built for long days on the move. The EliteBook 840 G3 pairs an 7th-generation Core i5 with a 14-inch anti-glare display, a full magnesium chassis and HP Sure View privacy. Ideal for consultants, accountants and anyone who lives in spreadsheets.",
     specs: {
       Brand: "HP",
-      Model: "EliteBook 840 G8",
-      Processor: "Intel Core i7-1165G7",
-      Memory: "16GB DDR4",
-      Storage: "512GB NVMe SSD",
+      Model: "EliteBook 840 G3",
+      Processor: "Intel Core i5-7267U",
+      Memory: "8GB DDR4",
+      Storage: "128GB NVMe SSD",
       Display: "14\" FHD IPS anti-glare",
-      Battery: "Up to 11 hours",
+      Battery: "Up to 9 hours",
       Warranty: "12 months in-store warranty",
     },
     highlights: [
@@ -39,18 +39,18 @@ export const products = [
     ],
   },
   {
-    id: "macbook-air-m2",
-    name: "Apple MacBook Air M2",
+    id: "macbook-air-m1",
+    name: "Apple MacBook Air M1",
     category: "laptops",
     price: 1450000,
     stock: "in-stock",
-    summary: "Apple M2 chip · 8GB unified memory · 256GB SSD · 13.6\" Liquid Retina",
+    summary: "Apple M1 chip · 8GB unified memory · 256GB SSD · 13.6\" Liquid Retina",
     description:
       "Fanless, silent and impossibly thin. The M2 MacBook Air handles design work, video editing and heavy browser use on a single charge, and weighs just 1.24kg.",
     specs: {
       Brand: "Apple",
-      Model: "MacBook Air (M2, 2022)",
-      Processor: "Apple M2 8-core",
+      Model: "MacBook Air (M1, 2022)",
+      Processor: "Apple M1 8-core",
       Memory: "8GB unified",
       Storage: "256GB SSD",
       Display: "13.6\" Liquid Retina",

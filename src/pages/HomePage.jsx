@@ -25,7 +25,7 @@ import { site, directionsUrl, mapEmbedUrl } from "../lib/site";
 
 const heroImages = [
   {
-    src: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=80",
+    src: "public/Haidiko.jpeg",
     alt: "Laptop on a retail display table",
     className: "col-span-2 row-span-2",
   },
@@ -35,7 +35,7 @@ const heroImages = [
     className: "",
   },
   {
-    src: "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=600&q=80",
+    src: "public/WhatsApp Image 2026-09-25 at 19.05.56.jpeg",
     alt: "PlayStation 5 console and controller",
     className: "",
   },
@@ -101,7 +101,7 @@ const testimonials = [
   {
     quote:
       "Tech City has really been a reliable place for all my tech needs. The staff are always helpful and professional.",
-    name: "James DStanley Nzerem.",
+    name: "Stanley Nzerem.",
     role: "Business owner, Ondo",
   },
   {
@@ -359,14 +359,14 @@ function About() {
           transition={{ duration: 0.6 }}
           className="lg:col-span-4"
         >
-          <div className="overflow-hidden rounded-xl shadow-card">
-            <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80"
-              alt="Inside the Tech City Technology Mall showroom"
-              loading="lazy"
-              className="h-64 w-full object-cover transition-transform duration-500 hover:scale-105 lg:h-full"
-            />
-          </div>
+          {/* NEW CODE: */}
+<div className="overflow-hidden rounded-xl shadow-card">
+  <img
+    src="/Haidiko.jpeg"
+    alt="Inside the Tech City Technology Mall showroom"
+    className="h-64 w-full object-cover transition-transform duration-500 hover:scale-105 lg:h-full"
+  />
+</div>
         </motion.div>
 
         <motion.div
@@ -385,7 +385,7 @@ function About() {
           </p>
           <p className="mt-3 text-sm leading-relaxed text-navy-600">
             We have served students, traders, schools and small businesses across Ondo State since
-            we opened our doors — and we stay reachable long after the receipt is printed.
+            we opened our doors and we stay reachable long after the receipt is printed.
           </p>
           <Link to="/about" className="btn-primary mt-6 inline-block transition-transform hover:scale-105">
             Learn More
