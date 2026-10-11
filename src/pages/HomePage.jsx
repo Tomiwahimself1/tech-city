@@ -35,7 +35,7 @@ const heroImages = [
     className: "",
   },
   {
-    src: "/ps5-console.jpeg", // ✅ Renamed without spaces or "public/"
+    src: "/WhatsApp Image 2026-09-25 at 19.05.56.jpeg", // ✅ Renamed without spaces or "public/"
     alt: "PlayStation 5 console and controller",
     className: "",
   },
