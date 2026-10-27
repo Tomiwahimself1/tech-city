@@ -154,8 +154,24 @@ export default function HomePage() {
 
 function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-navy-50 via-white to-orange-50">
-      <div className="container grid items-center gap-10 py-14 lg:grid-cols-2 lg:gap-14 lg:py-20">
+    <section className="relative overflow-hidden bg-navy text-white py-14 lg:py-20">
+      {/* Background Video Layer */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 h-full w-full object-cover z-0 opacity-25"
+      >
+        <source src="/1cc127e8-e06a-4c35-b793-e7b1cac3f462.MP4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      {/* Dark Overlay to Keep Text Readable */}
+      <div className="absolute inset-0 bg-navy/70 z-10" />
+
+      {/* Hero Content Container */}
+      <div className="container relative z-20 grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
         <motion.div
           initial="hidden"
           animate="visible"
@@ -163,7 +179,7 @@ function Hero() {
         >
           <motion.span
             variants={fadeInUp}
-            className="inline-flex items-center gap-2 rounded-full bg-orange-50 px-3 py-1.5 text-xs font-semibold text-orange ring-1 ring-orange-200"
+            className="inline-flex items-center gap-2 rounded-full bg-orange/20 px-3 py-1.5 text-xs font-semibold text-orange ring-1 ring-orange/30 backdrop-blur-sm"
           >
             <MapPin className="h-3.5 w-3.5" aria-hidden="true" />
             Your Trusted Technology Store in Ondo
@@ -171,14 +187,14 @@ function Hero() {
 
           <motion.h1
             variants={fadeInUp}
-            className="mt-5 text-4xl font-extrabold leading-[1.1] text-navy md:text-5xl lg:text-[3.4rem]"
+            className="mt-5 text-4xl font-extrabold leading-[1.1] text-white md:text-5xl lg:text-[3.4rem]"
           >
             Your Trusted Technology Store in Ondo
           </motion.h1>
 
           <motion.p
             variants={fadeInUp}
-            className="mt-5 max-w-xl text-base leading-relaxed text-navy-600"
+            className="mt-5 max-w-xl text-base leading-relaxed text-navy-200"
           >
             Explore quality laptops, phones, gaming devices, CCTV systems, accessories, solar
             gadgets, smart home products and more at Tech City.
@@ -189,14 +205,14 @@ function Hero() {
               Explore Products
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </Link>
-            <Link to="/about" className="btn-outline transition-transform hover:scale-105">
+            <Link to="/about" className="btn border border-white/30 text-white hover:bg-white hover:text-navy transition-transform hover:scale-105">
               Learn More
             </Link>
           </motion.div>
 
           <motion.dl
             variants={fadeInUp}
-            className="mt-10 grid max-w-lg grid-cols-3 gap-6 border-t border-navy-100 pt-6"
+            className="mt-10 grid max-w-lg grid-cols-3 gap-6 border-t border-white/20 pt-6"
           >
             {[
               { value: "10+", label: "Product categories" },
@@ -206,8 +222,8 @@ function Hero() {
               <div key={stat.label}>
                 <dt className="sr-only">{stat.label}</dt>
                 <dd>
-                  <span className="block text-2xl font-bold text-navy">{stat.value}</span>
-                  <span className="mt-1 block text-xs text-navy-500">{stat.label}</span>
+                  <span className="block text-2xl font-bold text-white">{stat.value}</span>
+                  <span className="mt-1 block text-xs text-navy-300">{stat.label}</span>
                 </dd>
               </div>
             ))}
@@ -243,7 +259,7 @@ function Hero() {
           <motion.div
             animate={{ y: [0, -8, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute -bottom-5 left-4 hidden items-center gap-3 rounded-xl bg-white px-4 py-3 shadow-lift sm:flex"
+            className="absolute -bottom-5 left-4 hidden items-center gap-3 rounded-xl bg-white px-4 py-3 shadow-lift sm:flex text-navy"
           >
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-orange-50 text-orange">
               <ShieldCheck className="h-5 w-5" aria-hidden="true" />
@@ -359,14 +375,13 @@ function About() {
           transition={{ duration: 0.6 }}
           className="lg:col-span-4"
         >
-          {/* NEW CODE: */}
-<div className="overflow-hidden rounded-xl shadow-card">
-  <img
-    src="/Haidiko.jpeg"
-    alt="Inside the Tech City Technology Mall showroom"
-    className="h-64 w-full object-cover transition-transform duration-500 hover:scale-105 lg:h-full"
-  />
-</div>
+          <div className="overflow-hidden rounded-xl shadow-card">
+            <img
+              src="/Haidiko.jpeg"
+              alt="Inside the Tech City Technology Mall showroom"
+              className="h-64 w-full object-cover transition-transform duration-500 hover:scale-105 lg:h-full"
+            />
+          </div>
         </motion.div>
 
         <motion.div
