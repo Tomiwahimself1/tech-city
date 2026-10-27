@@ -158,14 +158,19 @@ export default function AboutPage() {
             </dl>
           </div>
 
-          <div className="order-1 grid grid-cols-2 gap-4 lg:order-2">
-            <img
-              src="public/IMG-20260506-WA0070.JPG"
-              alt="Customers browsing inside Tech City"
-              loading="lazy"
-              className="col-span-2 h-56 w-full rounded-xl object-cover shadow-card md:h-72"
-            />
-            
+          <div className="order-1 flex flex-col items-center">
+            <div className="w-full overflow-hidden rounded-xl shadow-card">
+              <img
+                src="/IMG-20260506-WA0070.JPG"
+                alt="CEO and Founder of Tech City"
+                loading="lazy"
+                className="h-96 w-full object-cover transition-transform duration-500 hover:scale-105"
+              />
+            </div>
+            <div className="mt-3 text-center">
+              <h3 className="text-base font-bold text-navy">Temitope</h3>
+              <p className="text-xs text-navy-500">Founder & CEO, Tech City</p>
+            </div>
           </div>
         </div>
       </section>
