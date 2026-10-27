@@ -165,18 +165,7 @@ export default function AboutPage() {
               loading="lazy"
               className="col-span-2 h-56 w-full rounded-xl object-cover shadow-card md:h-72"
             />
-            <img
-              src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80"
-              alt="Laptops on display"
-              loading="lazy"
-              className="h-40 w-full rounded-xl object-cover shadow-card md:h-48"
-            />
-            <img
-              src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&w=600&q=80"
-              alt="POS terminal in use at a counter"
-              loading="lazy"
-              className="h-40 w-full rounded-xl object-cover shadow-card md:h-48"
-            />
+            
           </div>
         </div>
       </section>
