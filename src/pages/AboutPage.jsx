@@ -62,7 +62,7 @@ const facilities = [
     text: "Diagnostics, upgrades and warranty repairs handled in-house.",
   },
   {
-    src: "public/IMG_0156.jpeg",
+    src: "/IMG_0156.jpeg",
     alt: "CCTV demonstration wall",
     caption: "Security demo wall",
     text: "See live camera footage quality before you commit to a system.",
