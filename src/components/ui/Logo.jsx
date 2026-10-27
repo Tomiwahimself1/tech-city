@@ -7,7 +7,7 @@ export default function Logo({ className = "" }) {
   return (
     <Link to="/" className={`inline-flex items-center shrink-0 ${className}`}>
       <img
-        src="/tech-city-logo.jpg"
+        src="public/tech-city-logo.jpeg"
         alt="Tech City - Smart Tech for Smart Living"
         className="h-8 w-auto max-h-10 object-contain sm:h-10"
       />
