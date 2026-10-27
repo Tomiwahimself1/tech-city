@@ -62,7 +62,7 @@ const facilities = [
     text: "Diagnostics, upgrades and warranty repairs handled in-house.",
   },
   {
-    src: "https://images.unsplash.com/photo-1557597774-9d273605dfa9?auto=format&fit=crop&w=900&q=80",
+    src: "public/IMG_0156.jpeg",
     alt: "CCTV demonstration wall",
     caption: "Security demo wall",
     text: "See live camera footage quality before you commit to a system.",
@@ -160,7 +160,7 @@ export default function AboutPage() {
 
           <div className="order-1 grid grid-cols-2 gap-4 lg:order-2">
             <img
-              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80"
+              src="public/IMG-20260506-WA0070.JPG"
               alt="Customers browsing inside Tech City"
               loading="lazy"
               className="col-span-2 h-56 w-full rounded-xl object-cover shadow-card md:h-72"
