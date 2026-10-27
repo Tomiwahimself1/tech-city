@@ -17,6 +17,11 @@ import { navLinks, site, whatsappLink } from "../../lib/site";
 
 const socialIcons = { Facebook, Instagram, YouTube: Youtube };
 
+// Filter out projects and blog links just in case they exist in site.js
+const filteredNavLinks = navLinks.filter(
+  (link) => link.to !== "/projects" && link.to !== "/blog"
+);
+
 export default function Header() {
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
@@ -89,7 +94,7 @@ export default function Header() {
           {/* Desktop navigation */}
           <nav aria-label="Main" className="hidden lg:block">
             <ul className="flex items-center gap-7">
-              {navLinks.map((link) => (
+              {filteredNavLinks.map((link) => (
                 <li key={link.to}>
                   <NavLink to={link.to} end={link.to === "/"} className={navLinkClass}>
                     {link.label}
@@ -211,7 +216,7 @@ export default function Header() {
 
             <nav aria-label="Mobile" className="flex-1 overflow-y-auto px-3 py-4">
               <ul className="space-y-1">
-                {navLinks.map((link) => (
+                {filteredNavLinks.map((link) => (
                   <li key={link.to}>
                     <NavLink
                       to={link.to}
