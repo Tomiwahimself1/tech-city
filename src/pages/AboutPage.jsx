@@ -50,7 +50,7 @@ const values = [
 
 const facilities = [
   {
-    src: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80",
+    src: "/IMG_0284.jpeg",
     alt: "The Tech City showroom floor",
     caption: "Showroom floor",
     text: "Laptops, phones and consoles you can handle before you buy.",

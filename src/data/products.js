@@ -176,7 +176,7 @@ export const products = [
       "Free annual health check",
     ],
     images: [
-      U("1557597774-9d273605dfa9"),
+      "/IMG_0282.jpeg",
       U("1595079676339-1534801ad6cf"),
       U("1570129477492-45c003edd2be"),
     ],
